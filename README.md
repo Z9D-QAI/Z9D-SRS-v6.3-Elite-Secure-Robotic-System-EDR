@@ -295,4 +295,18 @@ Die **Z9D‑SRS‑v6.3‑Elite** ist ein vollständiges, interplanetar‑fähige
 - professioneller Tool‑Erkennung  
 - neuer Systemschutz‑ und Analyse‑UI  
 - robuster Koppellogik für alle Einsatzbereiche  
+----------------------------------------------------------------------
 
+## ZIP-Datei und Lizenzhinweis
+Die in diesem Repository bereitgestellte ZIP-Datei gehört zur veröffentlichten **Z9D-SRS v6.3 Elite – Secure Robotic System EDR** Version.
+Für die ZIP-Datei gelten **dieselbe Lizenz**, **dieselben Freigaberegeln**, **dieselben Haftungs- und Nutzungshinweise** sowie **dieselben Aktivierungsbedingungen** wie für die übrige veröffentlichte Versionen dieses Projekts.
+Wichtig:
+- nur freigegebene Originaldateien von Z9D verwenden
+- keine manipulierten, unvollständigen oder inoffiziell veränderten ZIP-Versionen einsetzen
+- keine Admin-, Server- oder Betreiberdateien aus internen Bereichen weitergeben
+- Nutzung, Freigabe und Aktivierung erfolgen gemäß den Angaben in diesem Repository, der veröffentlichten Webversion und der enthaltenen Lizenz
+Maßgeblich sind:
+- die Datei `LICENSE`
+- die Hinweise in diesem Repository
+- die zugehörigen Freigabe-, Support- und Aktivierungsregeln der Z9D-SRS v6.3 Elite Version
+----------------------------------------------------------------------
