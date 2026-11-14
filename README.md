@@ -312,3 +312,7 @@ Maßgeblich sind:
 ----------------------------------------------------------------------
 
 Z9D-SRS ist eine Sicherheits- und Lizenzloesung fuer Robotereinheiten, Fernsteuerungen, autonome Systeme, KI-Robotik sowie gekoppelte Robot-/Control-Installationen. Geeignet fuer einzelne Robotereinheiten Robotersysteme mit Steuerungslaptop oder Leitstand autonome Robotiksysteme KI-gestuetzte Robotik OEM-, Flotten- und Mehrfachsysteme Hauptfunktionen Ueberwachung laufender Prozesse Analyse aktiver Netzwerkverbindungen und Remote-IPs Bewertung sicherheitsrelevanter Windows-Ereignisse Defender-/Systemschutz-Einbindung Funkschutz fuer WLAN, Bluetooth, Infrarot und weitere Funkwege SRS Quarantaene und Sicherheitsbericht Lizenzierung pro Robotereinheit, Twin-System oder Multi-Robot-Pack Lizenzmodelle SingleRobot eine einzelne Robotereinheit TwinRobotControl ein Robot-Node und ein gekoppelter Control-Node ControlMultiRobotPack ein Control-Node fuer mehrere Robot-Units RobotPack / OEM Packgroessen fuer mehrere Robotereinheiten Produktfamilien SRS Remote SRS Autonomous SRS AI SRS Universal OEM Lieferumfang im ZIP Typischer Paketinhalt
+
+### © Lizenz & Urheberrecht
+**© 2026 Dr.MaS Zoran Ljubic – Z9D-QAI / Matrixworld.at. Alle Rechte vorbehalten (All Rights Reserved).**  
+Details zur exklusiven Nutzung und zum Schutz des geistigen Eigentums finden sich in der Datei [`LICENSE`](https://github.com/Z9D-QAI/Matrixworld/blob/main/LICENSE).
