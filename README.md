@@ -1,318 +1,147 @@
-# Z9D-SRS-v6.3-Elite-Secure-Robotic-System-EDR
-Z9D-SRS-v6.3-Elite Secure Robotic System EDR 
-# Z9D-SRS v6.3 Elite - Kurzanleitung fuer Kunden
-Offizielle Webseite: https://z9d-qai.com/
-## 1. Was ist Z9D-SRS v6.3 Elite?
+# Z9D-SRS v6.3 Elite
 
-Z9D-SRS v6.3 Elite ist ein lokales Sicherheits- und Schutzsystem EDR fuer:
-- Robotiksysteme
-- Fernsteuerungen
-- Bodenstationen
-- Flug- und Drohnensysteme
-- Schiffs- und Unterwassersysteme
-- Landfahrzeuge und mobile Leitstellen
-- Raumfahrt-, Satelliten- und Zukunftsplattformen
+**Secure Robotic System EDR (SRS)**
 
-Die Software schuetzt lokale Systeme, Prozesse, Netzwerke und Kommunikationswege wie:
-- WiFi / WLAN
-- Bluetooth
-- Infrarot
-- Radio / Funk
-- Cellular
-- Satellite
-- GNSS
-- Telemetry
-- Ethernet
-- Acoustic
+Z9D-SRS v6.3 Elite is a locally operated security and licensing package for robotic, unmanned, industrial, aerospace and other multi-domain systems. This repository provides the published customer package, product documentation and licensing notice.
 
-## 2. Was der Kunde bekommt
-Sie erhalten von Z9D ein fertiges Paket mit den fuer Sie bestimmten Programmdateien.
-Sie erhalten **nicht** den Serverbereich, keine Admin-Dateien und keine Betreiber-Konfiguration.
+- **Official website:** https://z9d-qai.com/
+- **Support:** Z9D-CSS@outlook.com
+- **Repository edition:** v6.3 Elite
+- **Distributed platform:** Windows 10 / 11
 
-## 3. Start der Software
-1. Paket entpacken
-2. die gelieferte EXE oder die freigegebene Startdatei oeffnen
-3. falls Windows nachfragt, Programm bestaetigen
-4. die Hauptoberflaeche starten lassen
+> Z9D-SRS is distributed as an executable package. The proprietary application source code is not published in this repository.
 
-Wenn PowerShell oder Windows nach einer Freigabe fragt, nur die von Z9D gelieferte Originaldatei starten.
-## 4. Erste Schritte im Programm
-Nach dem Start bitte diese Punkte pruefen:
-1. Geraete-ID anzeigen lassen
-2. Schutzstatus pruefen
-3. bei Bedarf das Einsatzprofil setzen
-4. danach das Lizenz-Center oeffnen
+## Repository contents
 
-## 5. Einsatzprofil richtig waehlen
-Im Einsatzprofil koennen je nach Auslieferung unter anderem gesetzt werden:
-- Einsatz-Domain
-- Geraeterolle
-- Deployment-Scope
-- geschuetzte Kommunikationswege
-- gekoppelte Gegenstelle
-- Zielsysteme / gesteuerte Systeme
+| File | Purpose |
+|---|---|
+| `Z9D-SRS-v6_3-ELITE-EXE.zip` | Published executable package |
+| `README.md` | Customer and product documentation |
+| `LICENSE` | Licensing and copyright terms |
 
-Beispiele:
-- Bodenstation steuert Fluggeraet
-- Leitstand steuert mehrere Robotereinheiten
-- Schiff steuert weitere Subsysteme
-- Satellit / Raumfahrzeug mit Bodenkontrolle
-- mobile Landsteuereinheit mit gekoppelten Fahrzeugen
+## Intended scope
 
-## 6. Lizenz-Center
-Im Lizenz-Center waehlen Sie die passende Produktgruppe, z. B.:
-- SRS Remote
-- SRS Autonomous
-- SRS AI
-- SRS Universal OEM
+Z9D-SRS v6.3 Elite is designed for scenarios involving:
 
-Danach pruefen Sie:
-- passt die Geraeterolle?
-- passt die Domain?
-- ist eine Gegenstelle einzutragen?
-- muessen mehrere Zielsysteme hinterlegt werden?
-Erst danach die Anfrage absenden.
+- robots and remotely operated vehicles;
+- ground control stations and command vehicles;
+- unmanned aircraft and flight-control systems;
+- surface vessels and subsea vehicles;
+- satellites and space vehicles;
+- lunar, planetary and orbital platforms;
+- industrial automation and multi-system control clusters;
+- isolated or air-gapped environments.
 
-## 7. Pairing / gekoppelte Systeme
-Es gibt drei typische Faelle:
-### Einzelgeraet
-- ein einzelnes System
-- keine Gegenstelle noetig
+The available functions and enabled feature set depend on the licensed package and the approved use case.
 
-### Twin-System
-- z. B. Fahrzeug + Bodenstation
-- Gegenstelle eintragen
+## Product areas
 
-### Control-Cluster
-- ein Steuerknoten kontrolliert mehrere Zielsysteme
-- mehrere Zielsystem-IDs hinterlegen
-Bitte nur echte zusammengehoerige Systeme koppeln.
+### System monitoring
 
-## 8. Nach Kauf oder Freigabe
-Nach Bestellung, Zahlung oder OEM-Freigabe:
-1. Status pruefen
-2. Lizenzaktivierung abwarten
-3. Anwendung ggf. neu oeffnen
-4. kontrollieren, ob Schutz- und Lizenzstatus aktiv sind
+- process and resource monitoring;
+- local network and remote-IP analysis;
+- Windows security-event review;
+- incident logs and local reports;
+- quarantine and controlled system actions;
+- threat-score and status indicators.
 
-## 9. Support
-Bei Fragen oder Problemen verwenden Sie die Support-Seite des Systems oder kontaktieren Sie Z9D.
-Typische Supportfaelle:
-- Aktivierung noch offen
-- falsche Geraeterolle gewaehlt
-- Gegenstelle geaendert
-- neue Zielsysteme hinzugekommen
-- OEM-/Mehrfachsysteme sollen erweitert werden
+### Communications and radio awareness
 
-## 10. Wichtige Hinweise fuer Kunden
-- keine Admin-Dateien veraendern
-- keine Serverdateien anfordern oder kopieren
-- nur Originaldateien von Z9D verwenden
-- bei Aenderung von Rolle, Gegenstelle oder Zielsystemen ggf. neue Freigabe einholen
-- lokale Sicherheitssoftware und Windows-Schutz nicht absichtlich deaktivieren
+The edition can provide monitoring and policy profiles for:
 
-## 11. Missbrauchsschutz / Anti-Raubkopie
-- nur freigegebene Originalversionen von Z9D verwenden
-- keine raubkopierten, manipulierten oder trojanischen Gleichkopien einsetzen
-- keine nicht autorisierten Klonversionen weitergeben oder betreiben
-- bei Verdacht auf Manipulation, Missbrauch oder trojanische Kopien sofort Support informieren
+- Wi-Fi and Ethernet;
+- Bluetooth;
+- radio and cellular links;
+- infrared and optical links;
+- satellite, GNSS and telemetry;
+- acoustic communication paths.
 
-## 12. Zweckentfremdung und Aussetzung von Aktivierungen
-- der Schutz von Civilisten und unbeteiligten Zivilpersonen hat Vorrang
-- eine Nutzung oder Zweckentfremdung gegen die Civilbevoelkerung ist nicht freigegeben
-- dies gilt auch fuer missbraeuchliche Flotten-, Fernsteuerungs- oder Plattformnutzung
-- Z9D behaelt sich das Recht vor, Aktivierungen einzelner Systeme, ganzer Flotten, Versionen oder eines ganzen Landes zu sperren, zu deaktivieren, zu stoppen oder auszusetzen
-- dies kann auch bereits aktivierte Versionen betreffen, bis die Lage geklaert und richtiggestellt wurde
+Supported hardware and transports depend on the target platform and selected deployment profile.
 
-## 13. Kurzfassung
-- Programm starten
-- Einsatzprofil setzen
-- Lizenz-Center oeffnen
-- richtige Rolle und Domain waehlen
-- bei Bedarf Gegenstelle und Zielsysteme eintragen
-- Anfrage absenden
-- Status und Aktivierung pruefen
-***************************************************************************
+### Operational roles
 
-# 🚀 **Z9D‑SRS‑v6.3‑Elite – Funktionsübersicht (Komplette Zusammenfassung)**
+The product supports role-aware configuration for:
 
-Die **Z9D‑SRS‑v6.3‑Elite** ist ein erweitertes Multi‑Domain‑Robotik‑, Missions‑ und Sicherheitsframework, das Land‑, Luft‑, See‑, Unterwasser‑, Orbit‑, Lunar‑, Planetary‑, Habitat‑ und experimentelle Systeme modelliert, schützt und koppelt.  
-Version 6.3 bringt die bisher größte Erweiterung der Rollen‑, Domain‑, Kommunikations‑ und Analysefunktionen.
+| Role | Typical use |
+|---|---|
+| `ROBOT_NODE` | The autonomous or remotely controlled robot |
+| `CONTROL_NODE` | Laptop, PC, server or command station |
+| `MOBILE_LAND_CONTROL` | Mobile land control |
+| `FIELD_C2` | Field command and control |
+| `AIRCRAFT_UX` | Aircraft user/control interface |
+| `AUTOPILOT_CORE` | Autopilot and motion-control core |
+| `SURFACE_VESSEL_USV` | Surface vessel |
+| `SUBSEA_UUV` | Subsea vehicle |
+| `SATELLITE_NODE` | Satellite or orbital node |
 
-## 🟦 **1. Multi‑Domain‑Abdeckung**
-v6.3‑Elite unterstützt jetzt alle relevanten Einsatzbereiche:
-- **Land** (UGV, mobile C2, Feldleitstände, Command‑Vehicles)  
-- **Luft** (UAV/UAS, Autopilot‑Core, Aircraft‑UX)  
-- **See** (USV‑Surface‑Vessels)  
-- **Unterwasser** (UUV‑Subsea‑Vehicles, akustische Kommunikation)  
-- **Orbit** (Satelliten, Raumgleiter, Orbitalfahrzeuge, Raketen)  
-- **Lunar** (Mondfahrzeuge, Rover, Lander)  
-- **Planetary** (Mars‑Rover, Planetary‑Vehicles)  
-- **Habitat‑Systeme** (Orbitalstationen, Deep‑Space‑Habitate)  
-- **Experimentelle/Unbekannte Plattformen** (UFO/UAP‑Alias‑Erkennung)  
+Additional platform-specific roles may be enabled in an authorized package.
 
-## 🟦 **2. Erweiterte Rollen (Device Roles)**
-Neue Rollen in v6.3:
-- `MOBILE_LAND_CONTROL`  
-- `FIELD_C2`  
-- `COMMAND_VEHICLE`  
-- `LAND_UGV`  
-- `AIRCRAFT_UX`  
-- `AUTOPILOT_CORE`  
-- `SURFACE_VESSEL_USV`  
-- `SUBSEA_UUV`  
-- `SPACE_GLIDER_NODE`  
-- `ORBITAL_VEHICLE_NODE`  
-- `ROCKET_NODE`  
-- `SATELLITE_NODE`  
-- `LUNAR_SURFACE_NODE`  
-- `PLANETARY_VEHICLE_NODE`  
-- `ORBITAL_STATION_NODE`  
-- `SPACE_HABITAT_NODE`  
-- `UNKNOWN_ADVANCED_CRAFT`  
+## Licensing models
 
-Alle Rollen sind vollständig normalisiert, domain‑aware und in die Koppellogik eingebunden.
+Available licensing arrangements include:
 
-## 🟦 **3. Erweiterte Herstellerprofile (OEM Profiles)**
-Neue OEM‑Profile:
-- `MOBILE_LAND_C2`  
-- `LAND_C2_SYSTEM`  
-- `SPACE_GLIDER_SYSTEM`  
-- `ROCKET_TRANSPORT`  
-- `SATELLITE_CONSTELLATION`  
-- `SPACEPORT_LAUNCH`  
-- `PLANETARY_EXPLORATION`  
-- `ORBITAL_STATION_HUB`  
-- `SPACE_HABITAT_SYSTEM`  
-- `UNKNOWN_ADVANCED_SYSTEM`  
+- **Single node:** one system or device;
+- **Twin system:** a robot or vehicle and one connected control node;
+- **Control cluster:** one control node connected to multiple target units;
+- **OEM / fleet package:** a managed number of licensed units.
 
-## 🟦 **4. Kommunikations‑ und Funkflächen**
-v6.3‑Elite erkennt und analysiert:
-- WiFi  
-- Bluetooth  
-- Infrared  
-- Radio  
-- Cellular  
-- Satellite  
-- GNSS  
-- Telemetry  
-- Ethernet  
-- Acoustic (Unterwasser)  
-- Optical (Laser‑Links / Inter‑Satellite‑Links)
+Product families include SRS Remote, SRS Autonomous, SRS AI and SRS Universal OEM. The appropriate model should be selected before activation.
 
-Neue Interface‑Bezeichner:
-- `ir0`, `radio0`, `satcom0`
+## Download and start
 
-## 🟦 **5. Cross‑Domain‑Koppellogik**
-Die Koppellogik wurde vollständig erweitert:
+1. Download `Z9D-SRS-v6_3-ELITE-EXE.zip`.
+2. Verify the archive and installable files obtained from Z9D.
+3. Extract the package into a dedicated local folder.
+4. Review the included package documentation.
+5. Start the supplied executable.
+6. If Windows shows a security prompt, confirm only the original file delivered by Z9D.
 
-- **Bodenstation → Satellit / Raumgleiter / Orbitalfahrzeug / Rakete**  
-- **Bodenstation → Mondfahrzeug / Planetary‑Vehicle**  
-- **Startkontrolle → Rakete / Booster / Launch‑Vehicle**  
-- **Orbitalstation → Satelliten / Habitate / Module**  
-- **Habitat → gekoppelte Systeme**  
-- **Bodenstation → experimentelle Plattformen (UFO/UAP‑Alias)**  
-Damit ist v6.3 ein vollständiges Multi‑Domain‑Mission‑Control‑System.
+Do not extract or run unknown copies obtained from third-party sources.
 
-## 🟦 **6. Alias‑Erkennung**
-Erweiterte Alias‑Erkennung für:
-- ROCKET, BOOSTER, LAUNCH_VEHICLE  
-- SPACE_STATION, HABITAT  
-- MOON_ROVER, PLANETARY_ROVER, ROVER  
-- UFO, UFOS, UAP, UNKNOWN, EXPERIMENTAL, HYBRID_CRAFT  
+## Initial setup
 
-## 🟦 **7. Lizenz‑Datensatz erweitert**
-Neue Felder:
-- `deviceRole`  
-- `operationalDomain`  
-- `deploymentScope`  
-- `protectedTransports`  
-Damit ist die Lizenz vollständig domain‑aware.
+1. Open the main application.
+2. Confirm the displayed device ID.
+3. Set the operational domain and deployment scope.
+4. Select the device role.
+5. Enter only systems that are authorized to be paired.
+6. Open the license center and submit the correct package request.
+7. Wait for activation and verify the license status.
 
-## 🟦 **8. UI‑Erweiterungen**
-- neue Domain‑Anzeige  
-- neue Rollen‑ und Profil‑Labels  
-- neue Kommunikations‑Symbole  
-- neue Missions‑Scope‑Texte  
-- neue Pairing‑Hinweise  
-- neue Tooltips  
-- konsistente Berichtsnamen („SRS‑Vorfallbericht“)  
-- neue Buttons für Systemschutz & Analyse‑Tools  
+For a control cluster, add every target unit only if it belongs to the authorized fleet or project.
 
-## 🟦 **9. Externe Tool‑Erkennung & Integration**
-v6.3‑Elite erkennt jetzt automatisch:
-### **Schutztools**
-- McAfee / Trellix  
-- Sophos  
-- Trend Micro  
-- Avira  
-- F‑Secure / WithSecure  
-- G DATA  
-- Panda Dome  
-- Webroot  
-- Cisco Secure Endpoint  
-- CrowdStrike Falcon  
-- SentinelOne  
-- Malwarebytes  
-- ESET  
-- Bitdefender  
-- Kaspersky  
-- Avast  
-- AVG  
-- Norton  
+## Pairing
 
-### **Analyse‑Tools**
-- Wireshark  
-- Burp Suite  
-- GlassWire  
-- Microsoft Network Monitor  
-- Microsoft Message Analyzer  
-- Nmap / Zenmap  
-- USBPcapCMD  
-- Process Monitor  
-- Process Explorer  
-- TCPView  
-- Fiddler  
+| Configuration | Example |
+|---|---|
+| Single device | One autonomous robot |
+| Twin system | One robot and one ground-control laptop |
+| Control cluster | One command node controlling multiple robot units |
 
-### **Neue UI‑Elemente**
-- **SRS Systemschutz** (statt Windows‑Security)  
-- **SRS Analyse‑Tools** (eigener Button)  
-- Tool‑Auswahldialog mit Start‑Funktion  
+Pairing IDs are used for the configured license relationship. Changing a node role or adding target systems may require a new authorization.
 
-## 🟦 **10. Parser‑ und Sicherheitsstatus**
-Alle Erweiterungen wurden geprüft:
-- **ParseErrors = 0**  
-- keine Inline‑If‑Risiken  
-- keine Syntaxfehler  
-- keine UI‑Fehler  
-- EXE‑sicher  
+## Security and responsible use
 
-# 🟩 **Kurzfazit**
-Die **Z9D‑SRS‑v6.3‑Elite** ist ein vollständiges, interplanetar‑fähiges Multi‑Domain‑Robotik‑, Missions‑ und Sicherheitsframework mit:
-- maximaler Domain‑Abdeckung  
-- vollständiger Rollen‑ und Profilmatrix  
-- erweiterter Kommunikationsanalyse  
-- professioneller Tool‑Erkennung  
-- neuer Systemschutz‑ und Analyse‑UI  
-- robuster Koppellogik für alle Einsatzbereiche  
-----------------------------------------------------------------------
+- Run the software only on systems you own or are authorized to operate.
+- Keep the original license, logs and activation data available for support.
+- Use approved Windows and endpoint-security settings.
+- Do not disable local protections solely to bypass an activation or package restriction.
+- Do not use the software for unauthorized tracking, surveillance or interference.
+- Contact support before changing a role, paired system or fleet configuration.
 
-## ZIP-Datei und Lizenzhinweis
-Die in diesem Repository bereitgestellte ZIP-Datei gehört zur veröffentlichten **Z9D-SRS v6.3 Elite – Secure Robotic System EDR** Version.
-Für die ZIP-Datei gelten **dieselbe Lizenz**, **dieselben Freigaberegeln**, **dieselben Haftungs- und Nutzungshinweise** sowie **dieselben Aktivierungsbedingungen** wie für die übrige veröffentlichte Versionen dieses Projekts.
-Wichtig:
-- nur freigegebene Originaldateien von Z9D verwenden
-- keine manipulierten, unvollständigen oder inoffiziell veränderten ZIP-Versionen einsetzen
-- keine Admin-, Server- oder Betreiberdateien aus internen Bereichen weitergeben
-- Nutzung, Freigabe und Aktivierung erfolgen gemäß den Angaben in diesem Repository, der veröffentlichten Webversion und der enthaltenen Lizenz
-Maßgeblich sind:
-- die Datei `LICENSE`
-- die Hinweise in diesem Repository
-- die zugehörigen Freigabe-, Support- und Aktivierungsregeln der Z9D-SRS v6.3 Elite Version
-----------------------------------------------------------------------
+Z9D-SRS is a security and licensing solution, not a guarantee that every attack, unknown threat or future vulnerability can be prevented.
 
-Z9D-SRS ist eine Sicherheits- und Lizenzloesung fuer Robotereinheiten, Fernsteuerungen, autonome Systeme, KI-Robotik sowie gekoppelte Robot-/Control-Installationen. Geeignet fuer einzelne Robotereinheiten Robotersysteme mit Steuerungslaptop oder Leitstand autonome Robotiksysteme KI-gestuetzte Robotik OEM-, Flotten- und Mehrfachsysteme Hauptfunktionen Ueberwachung laufender Prozesse Analyse aktiver Netzwerkverbindungen und Remote-IPs Bewertung sicherheitsrelevanter Windows-Ereignisse Defender-/Systemschutz-Einbindung Funkschutz fuer WLAN, Bluetooth, Infrarot und weitere Funkwege SRS Quarantaene und Sicherheitsbericht Lizenzierung pro Robotereinheit, Twin-System oder Multi-Robot-Pack Lizenzmodelle SingleRobot eine einzelne Robotereinheit TwinRobotControl ein Robot-Node und ein gekoppelter Control-Node ControlMultiRobotPack ein Control-Node fuer mehrere Robot-Units RobotPack / OEM Packgroessen fuer mehrere Robotereinheiten Produktfamilien SRS Remote SRS Autonomous SRS AI SRS Universal OEM Lieferumfang im ZIP Typischer Paketinhalt
+## Support
 
-### © Lizenz & Urheberrecht
-**© 2026 Dr.MaS Zoran Ljubic – Z9D-QAI / Matrixworld.at. Alle Rechte vorbehalten (All Rights Reserved).**  
-Details zur exklusiven Nutzung und zum Schutz des geistigen Eigentums finden sich in der Datei [`LICENSE`](https://github.com/Z9D-QAI/Matrixworld/blob/main/LICENSE).
+For licensing, activation or technical questions:
+
+- **E-mail:** Z9D-CSS@outlook.com
+- **Website:** https://z9d-qai.com/
+
+Include the product edition, device ID, activation status and a short, factual description of the problem. Do not send passwords or unnecessary private data.
+
+## License
+
+Copyright (c) 2026 Zoran Ljubic - Z9D-QAI / Matrixworld
+
+All rights reserved. Use is subject to the terms in [`LICENSE`](./LICENSE) and any separate license supplied with the published package.
